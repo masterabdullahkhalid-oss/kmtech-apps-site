@@ -5,15 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy Policy - Video Splitter &amp; Cutter 360</title>
 <meta name="description" content="Privacy policy for Video Splitter &amp; Cutter 360 by Khalid Mustafa Tech.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 <header class="site-head"><div class="wrap">
-  <a class="brand" href="../index.html">KM<span>Tech</span></a>
-  <nav><a href="../index.html">All Apps</a> <a href="https://play.google.com/store/apps/developer?id=Khalid+Mustafa+Tech">Google Play</a></nav>
+  <a class="brand" href="../index.html"><span class="logo-mark">KM</span><span><b>Khalid Mustafa Tech</b></span></a>
+  <nav><a href="../index.html">Apps</a><a href="https://play.google.com/store/apps/developer?id=Khalid+Mustafa+Tech">Google Play</a></nav>
 </div></header>
 <main class="wrap">
-<article class="policy">
+<article class="policy reveal">
 <h1>Privacy Policy - Video Splitter &amp; Cutter 360</h1>
 <p><strong>App:</strong> Video Splitter &amp; Cutter 360</p>
 <p><strong>Package:</strong> <code>com.km.videosplitter360</code></p>
@@ -60,8 +61,18 @@
 <p class="actions"><a class="btn" href="https://play.google.com/store/apps/details?id=com.km.videosplitter360">View on Google Play</a> <a class="btn ghost" href="../index.html">&larr; All apps</a></p></article>
 </main>
 <footer class="site-foot"><div class="wrap">
-  <p>&copy; 2026 Khalid Mustafa Tech. All trademarks belong to their respective owners.</p>
+  <a class="brand" href="../index.html"><span class="logo-mark">KM</span><span><b>Khalid Mustafa Tech</b></span></a>
+  <p>Useful Android apps &mdash; crafted with care.</p>
   <p><a href="https://play.google.com/store/apps/developer?id=Khalid+Mustafa+Tech">Developer on Google Play</a> &middot; <a href="mailto:masterabdullahkhalid@gmail.com">masterabdullahkhalid@gmail.com</a></p>
+  <p>&copy; 2026 Khalid Mustafa Tech. All trademarks belong to their respective owners.</p>
 </div></footer>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+  var els=document.querySelectorAll('.reveal');
+  if(!('IntersectionObserver'in window)){els.forEach(function(e){e.classList.add('in')});return;}
+  var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:.12});
+  els.forEach(function(e,i){e.style.transitionDelay=(Math.min(i,8)*55)+'ms';io.observe(e);});
+});
+</script>
 </body>
 </html>

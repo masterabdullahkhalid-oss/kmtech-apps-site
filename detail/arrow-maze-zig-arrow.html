@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arrow Maze - Zig Arrow — Khalid Mustafa Tech</title><meta name="description" content="Tap the right arrows in order to clear every board.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="../style.css?v=4">
+</head><body>
+<header class="site-head"><div class="wrap">
+  <a class="brand" href="../index.html"><span class="logo-mark">KM</span><span><b>Khalid Mustafa Tech</b></span></a>
+  <nav><a href="../index.html">Apps</a><a href="https://play.google.com/store/apps/developer?id=Khalid+Mustafa+Tech">Google Play</a></nav>
+</div></header>
+<main class="wrap">
+<article class="detail reveal">
+  <a class="back" href="../index.html">&larr; All apps</a>
+  <div class="detail-head">
+    <img class="icon-xl" src="../assets/icons/arrow-maze-zig-arrow.png" alt="Arrow Maze - Zig Arrow" width="110" height="110">
+    <div>
+      <h1>Arrow Maze - Zig Arrow</h1>
+      <p class="tagline">Zig-zag maze puzzles that get deliciously tricky</p>
+      <div class="card-actions"><span class="badge soon">Coming soon</span></div>
+    </div>
+  </div>
+  <p class="pitch">Test your pattern-spotting skills across ever-trickier zig-zag mazes. Each level is a fresh little challenge that keeps your brain hooked.</p>
+  <h2>Why you'll love it</h2>
+  <ul class="feat"><li>Clever zig-zag level design</li><li>Quick, pick-up-and-play rounds</li><li>Difficulty that grows with you</li></ul>
+  <div class="shots-soon">More screenshots coming soon.</div>
+</article>
+</main>
+<footer class="site-foot"><div class="wrap">
+  <a class="brand" href="../index.html"><span class="logo-mark">KM</span><span><b>Khalid Mustafa Tech</b></span></a>
+  <p>Useful Android apps &mdash; crafted with care.</p>
+  <p><a href="https://play.google.com/store/apps/developer?id=Khalid+Mustafa+Tech">Developer on Google Play</a> &middot; <a href="mailto:masterabdullahkhalid@gmail.com">masterabdullahkhalid@gmail.com</a></p>
+  <p>&copy; 2026 Khalid Mustafa Tech. All trademarks belong to their respective owners.</p>
+</div></footer>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+  var els=document.querySelectorAll('.reveal');
+  if(!('IntersectionObserver'in window)){els.forEach(function(e){e.classList.add('in')});return;}
+  var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:.1});
+  els.forEach(function(e,i){e.style.transitionDelay=(Math.min(i,8)*55)+'ms';io.observe(e);});
+});
+</script>
+</body></html>

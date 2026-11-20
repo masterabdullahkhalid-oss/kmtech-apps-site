@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Barcode Scanner — Khalid Mustafa Tech</title><meta name="description" content="Fast, clean QR &amp; barcode scanning.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="../style.css?v=4">
+</head><body>
+<header class="site-head"><div class="wrap">
+  <a class="brand" href="../index.html"><span class="logo-mark">KM</span><span><b>Khalid Mustafa Tech</b></span></a>
+  <nav><a href="../index.html">Apps</a><a href="https://play.google.com/store/apps/developer?id=Khalid+Mustafa+Tech">Google Play</a></nav>
+</div></header>
+<main class="wrap">
+<article class="detail reveal">
+  <a class="back" href="../index.html">&larr; All apps</a>
+  <div class="detail-head">
+    <img class="icon-xl" src="../assets/icons/barcode-scanner.png" alt="Barcode Scanner" width="110" height="110">
+    <div>
+      <h1>Barcode Scanner</h1>
+      <p class="tagline">Scan any QR or barcode in a blink</p>
+      <div class="card-actions"><a class="btn install" href="https://play.google.com/store/apps/details?id=com.barcodescanner.qrcodereaders"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" style="flex:0 0 auto"><path d="M3.6 2.3 13.2 12 3.6 21.7a1 1 0 0 1-.6-.9V3.2a1 1 0 0 1 .6-.9Z" fill="#00d2ff"/><path d="M16.9 8.5 13.2 12l3.7 3.5 3.4-1.9c1-.6 1-2 0-2.6l-3.4-1.5Z" fill="#ffc400"/><path d="M3.6 2.3 13.2 12l3.7-3.5L6.2 2.2a1.2 1.2 0 0 0-2.6.1Z" fill="#00e07a"/><path d="M3.6 21.7 13.2 12l3.7 3.5L6.2 21.8a1.2 1.2 0 0 1-2.6-.1Z" fill="#ff4b63"/></svg><span>Install Now</span></a></div>
+    </div>
+  </div>
+  <p class="pitch">The only scanner you&#x27;ll ever need. Point your camera and instantly read QR codes and barcodes — open links, save contacts, check products, and more, all with a clean, no-clutter design.</p>
+  <h2>Why you'll love it</h2>
+  <ul class="feat"><li>Instant QR &amp; barcode detection</li><li>Clean, ad-light camera UI</li><li>History so you never lose a scan</li></ul>
+  <div class="shots-soon">More screenshots coming soon.</div>
+</article>
+</main>
+<footer class="site-foot"><div class="wrap">
+  <a class="brand" href="../index.html"><span class="logo-mark">KM</span><span><b>Khalid Mustafa Tech</b></span></a>
+  <p>Useful Android apps &mdash; crafted with care.</p>
+  <p><a href="https://play.google.com/store/apps/developer?id=Khalid+Mustafa+Tech">Developer on Google Play</a> &middot; <a href="mailto:masterabdullahkhalid@gmail.com">masterabdullahkhalid@gmail.com</a></p>
+  <p>&copy; 2026 Khalid Mustafa Tech. All trademarks belong to their respective owners.</p>
+</div></footer>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+  var els=document.querySelectorAll('.reveal');
+  if(!('IntersectionObserver'in window)){els.forEach(function(e){e.classList.add('in')});return;}
+  var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:.1});
+  els.forEach(function(e,i){e.style.transitionDelay=(Math.min(i,8)*55)+'ms';io.observe(e);});
+});
+</script>
+</body></html>

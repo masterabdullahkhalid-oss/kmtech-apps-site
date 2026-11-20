@@ -1,14 +1,9 @@
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy - KM Status Saver</title>
-<meta name="description" content="Privacy policy for KM Status Saver by Khalid Mustafa Tech.">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../style.css?v=3">
-</head>
-<body>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy - KM Status Saver</title><meta name="description" content="Privacy policy for KM Status Saver by Khalid Mustafa Tech.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="../style.css?v=4">
+</head><body>
 <header class="site-head"><div class="wrap">
   <a class="brand" href="../index.html"><span class="logo-mark">KM</span><span><b>Khalid Mustafa Tech</b></span></a>
   <nav><a href="../index.html">Apps</a><a href="https://play.google.com/store/apps/developer?id=Khalid+Mustafa+Tech">Google Play</a></nav>
@@ -77,9 +72,8 @@
 document.addEventListener('DOMContentLoaded',function(){
   var els=document.querySelectorAll('.reveal');
   if(!('IntersectionObserver'in window)){els.forEach(function(e){e.classList.add('in')});return;}
-  var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:.12});
+  var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:.1});
   els.forEach(function(e,i){e.style.transitionDelay=(Math.min(i,8)*55)+'ms';io.observe(e);});
 });
 </script>
-</body>
-</html>
+</body></html>

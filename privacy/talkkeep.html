@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy - TalkKeep (All Call Recorder)</title><meta name="description" content="Privacy policy for TalkKeep (All Call Recorder) by Khalid Mustafa Tech.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="../style.css?v=4">
+</head><body>
+<header class="site-head"><div class="wrap">
+  <a class="brand" href="../index.html"><span class="logo-mark">KM</span><span><b>Khalid Mustafa Tech</b></span></a>
+  <nav><a href="../index.html">Apps</a><a href="https://play.google.com/store/apps/developer?id=Khalid+Mustafa+Tech">Google Play</a></nav>
+</div></header>
+<main class="wrap">
+<article class="policy reveal">
+<h1>Privacy Policy - TalkKeep (All Call Recorder)</h1>
+<p><strong>App:</strong> TalkKeep (All Call Recorder)</p>
+<p><strong>Package:</strong> <code>com.khalidmustafatech.talkkeep</code></p>
+<p><strong>Developer:</strong> Khalid Mustafa Tech</p>
+<p><strong>Effective date:</strong> November 19, 2026 (Last updated: November 19, 2026)</p>
+<p>This Privacy Policy applies to the TalkKeep mobile application (the &quot;Application&quot;), provided by Khalid Mustafa Tech (the &quot;Service Provider&quot;). The Application is provided &quot;as is.&quot;</p>
+<h2>1. What TalkKeep does</h2>
+<p>TalkKeep is a call recording application. It records phone calls (both sides) and, if you turn it on, app calls such as WhatsApp, Signal and Telegram, then turns a recording into a transcript, all on the device itself. It also includes playback with a waveform, notes, tags, stars, search, import of audio files, and export of transcripts. TalkKeep does not create AI summaries in this version.</p>
+<h2>2. Information processed by the Application</h2>
+<p>TalkKeep does not require an account to use any of its features. By default, everything TalkKeep records or transcribes is processed and stored on your device. The Service Provider does not operate a server that stores the content of your calls or transcripts.</p>
+<p>Depending on the features you use, the Application may process:</p>
+<ul>
+<li>Call audio you choose to record: both sides of a phone call, or an app call if you opt in</li>
+<li>Audio files you import or share to TalkKeep</li>
+<li>The name of the calling app and, for app calls, the caller name shown in that app&#x27;s call notification, used only to label the recording</li>
+<li>Contacts you choose to add to the &quot;don&#x27;t record these contacts&quot; rule (optional)</li>
+<li>Transcripts and speaker labels generated from your recordings</li>
+<li>Tags, stars and notes you create</li>
+<li>Recording settings and preferences (save location, file format, language)</li>
+<li>Diagnostic logs you choose to export when reporting a problem</li>
+</ul>
+<h2>3. Optional Google Drive copy and backup</h2>
+<p>If you choose a Google Drive folder in TalkKeep, two things can be copied into that folder through Android&#x27;s own file picker (the Storage Access Framework), using the Drive app already installed on your phone. There is no sign-in inside TalkKeep, and TalkKeep itself does not talk to Google&#x27;s servers for this; the transfer is handled by the Drive app.</p>
+<ul>
+<li><strong>Your recordings (audio files)</strong>, when you choose &quot;Google Drive&quot; or &quot;Device + Google Drive&quot; as the save location.</li>
+<li><strong>A nightly backup of your library data</strong>: the recordings catalog, transcripts, notes, tags, stars and your app settings, packed into one file. This backup is off by default and runs only after you switch it on in Settings. It is encrypted on the phone with a key kept in the Android Keystore before it leaves the phone, so it can be restored by TalkKeep on this phone but cannot be read by anyone who gets hold of the file from Drive. If encryption fails, nothing is uploaded. The newest 7 copies are kept.</li>
+</ul>
+<p>Without a chosen Drive folder, nothing is uploaded. You can stop either at any time in Settings. Copies already in your Drive stay there until you delete them.</p>
+<h2>4. How calls are recorded</h2>
+<p>Recording call audio needs shell-level privilege on Android. TalkKeep gets this one of two ways, chosen during setup:</p>
+<ul>
+<li><strong>Built-in mode:</strong> pairs once with your phone&#x27;s own Wireless debugging, entirely on the device. No other app or computer is involved. To keep recording after a restart, TalkKeep may switch Wireless debugging on again. If you turn on the optional &quot;Record without Wi-Fi&quot; setting, TalkKeep keeps a debugging connection available on the phone itself. You can turn these off in Settings.</li>
+<li><strong>Shizuku mode:</strong> if you already run the Shizuku app, TalkKeep borrows the privilege it already holds instead of pairing on its own.</li>
+</ul>
+<p>Neither mode sends your call audio anywhere. The privilege is used only to capture audio locally, read the call state needed to start and stop at the right time, and hand the audio to TalkKeep&#x27;s own recorder. A visible notification is shown while a call is being recorded, with a Stop button.</p>
+<h2>5. Transcription</h2>
+<p>Transcription runs on the phone, on the CPU, with no account and no network connection required once the model is downloaded.</p>
+<ul>
+<li>Transcription uses the open-source whisper.cpp engine. A speech-to-text model (190 MB or 574 MB, your choice) is downloaded once, from Hugging Face, over Wi-Fi.</li>
+<li>Speaker labels on phone calls come from the call&#x27;s own two audio channels, not from a voice-recognition model.</li>
+<li>A simple on-device check can flag phrases typical of known scam calls in a transcript. It runs on the phone, only suggests, and can be wrong; it is not a safety guarantee.</li>
+</ul>
+<h2>6. What leaves your device</h2>
+<ul>
+<li><strong>Recordings</strong> — only if you choose a Google Drive save location (Section 3).</li>
+<li><strong>Encrypted library backup</strong> (transcripts, notes, tags, settings) — only if you switch it on and have a Drive folder (Section 3), and encrypted.</li>
+<li><strong>Speaker names and contacts</strong> — never.</li>
+<li><strong>Analytics, telemetry, crash reports</strong> — none of TalkKeep&#x27;s own. Ad networks collect their own technical data to serve and measure ads (Section 9).</li>
+</ul>
+<p>TalkKeep reaches the network in these places, and nowhere else:</p>
+<p>1. <strong>Hugging Face:</strong> to download a transcription model you asked for.</p>
+<p>2. <strong>Your local network:</strong> during setup, to find your phone&#x27;s own debugging service for pairing. No data leaves your Wi-Fi network for this.</p>
+<p>3. <strong>Google&#x27;s Mobile Ads SDK and its mediation partner AppLovin:</strong> to serve and measure the ads shown in the app (Section 9).</p>
+<p>4. <strong>GitHub and jsDelivr:</strong> to refresh the list of the Service Provider&#x27;s other apps, and their icons, when you open the More apps page. Nothing about you is sent; it is a plain download of a public list.</p>
+<p>5. <strong>Google Play (In-App Review):</strong> when you are asked to rate the app, the review prompt is shown by Google Play itself.</p>
+<h2>7. Permissions</h2>
+<p>TalkKeep requests only what its features need:</p>
+<ul>
+<li><strong>Phone / call state:</strong> to detect when a call starts or ends. TalkKeep does not request access to your call log or the caller&#x27;s number, so phone-call recordings are not labelled with contact names.</li>
+<li><strong>Contacts (optional):</strong> only to pick contacts for the &quot;don&#x27;t record these contacts&quot; rule.</li>
+<li><strong>Notifications:</strong> for recording controls, transcription progress, and status alerts.</li>
+<li><strong>Foreground service:</strong> to keep recording and background transcription running while they are in progress.</li>
+<li><strong>Boot completed:</strong> to restart the recorder after your phone reboots.</li>
+<li><strong>Battery optimization exemption (optional, recommended):</strong> so Android does not stop the recorder in the background.</li>
+<li><strong>Wireless debugging / Developer options:</strong> the mechanism used to gain the privilege needed to capture call audio (Section 4).</li>
+<li><strong>Installed apps visibility:</strong> to show the names and icons of calling apps in the per-app recording switches, and to check whether the Service Provider&#x27;s other apps are installed so the More apps page can show &quot;Install&quot; or &quot;Open&quot;.</li>
+<li><strong>Advertising ID:</strong> used by the ad SDKs to serve and measure ads (Section 9).</li>
+<li><strong>Folder access:</strong> recordings are saved only to the folder you choose, through Android&#x27;s file picker. TalkKeep does not request broad access to your files.</li>
+</ul>
+<p>TalkKeep does not request access to your call log, SMS, or precise location, and does not use Accessibility services.</p>
+<h2>8. App Lock</h2>
+<p>TalkKeep includes an optional App Lock. When turned on, your phone&#x27;s own screen lock (PIN, pattern, fingerprint, or face) is required before any recording or transcript is shown inside the app. This check happens on-device through Android&#x27;s own biometric system; TalkKeep never sees or stores your PIN, password or biometric data.</p>
+<h2>9. Advertising</h2>
+<p>TalkKeep shows ads through Google&#x27;s Mobile Ads (AdMob) SDK, with AppLovin as a mediation partner. Formats are: banners at the bottom of some pages, native ad cards inside lists, full-screen interstitial ads at some natural breaks (for example when you close the player or after an export), an app-open ad when you open or return to the app, and rewarded ads that you choose to watch yourself (for example to unlock extra transcript export formats for 24 hours or to pause ads for a while). When no ad is available, TalkKeep may show a promotion for the Service Provider&#x27;s own apps instead.</p>
+<p>No ads are shown during setup, in Settings, while a call is being recorded, or on the page where you listen to a recording.</p>
+<p>Google, AppLovin and their advertising partners may collect an advertising identifier, IP address, device and app information, and ad interactions to serve and measure ads, under <a href="https://policies.google.com/privacy">Google&#x27;s privacy policy</a> and <a href="https://www.applovin.com/privacy/">AppLovin&#x27;s privacy policy</a>. You can reset your advertising ID or opt out of personalised ads in your device&#x27;s Google settings. The Service Provider does not receive or store the data used for ad targeting; that traffic goes directly between your device and the ad networks.</p>
+<p>If you are in the European Economic Area, the United Kingdom or Switzerland, TalkKeep shows Google&#x27;s consent form before any ad is requested, and no ad is loaded until you have answered. You can change your choice at any time from Settings &gt; About &gt; Ad privacy choices.</p>
+<h2>10. Data sharing and sale</h2>
+<p>The Service Provider does not sell or rent your personal data, and does not share your recordings, transcripts, notes or contacts with anyone. The one thing shared with third parties is the advertising identifier and the technical data that Google and AppLovin receive to serve and measure ads (Section 9). Apart from that, information leaves the Application only in the cases described in Sections 3 and 6, or when you explicitly export or share a recording or transcript yourself. Information may also be disclosed where legally required.</p>
+<h2>11. Recording consent and legal responsibility</h2>
+<p>Recording phone calls or conversations may be subject to complex and varying laws in different countries and jurisdictions; in many places, every party to a call must consent before it is recorded. This is your responsibility, not the Application&#x27;s. TalkKeep shows a reminder before you start, lets you turn recording off for individual apps or contacts, and can ask before every call rather than record automatically. This Privacy Policy is not legal advice; consult a legal professional if you are unsure about the rules that apply to you.</p>
+<h2>12. Retention and deletion</h2>
+<p>Recordings, transcripts, notes, tags and settings remain on your device until you delete them: individually (deleted recordings go to a Trash and are removed when you empty it or after 30 days), through TalkKeep&#x27;s housekeeping (automatic deletion by age or storage cap, off by default and never applied to a starred recording), by clearing the app&#x27;s data, or by uninstalling TalkKeep. If you chose a Google Drive folder, copies of recordings and backups in your Drive remain until you delete them there; TalkKeep keeps only the newest 7 backup files and does not delete other files.</p>
+<h2>13. Children&#x27;s privacy</h2>
+<p>TalkKeep is a general-purpose utility and is not directed to children under 13 (or the minimum age in your country). The Service Provider does not knowingly collect personal information from children. Ads are requested with a content rating suitable for teens and above.</p>
+<h2>14. Security</h2>
+<p>Recordings and transcripts are stored on your device; where an App Lock is enabled, access is additionally gated behind your device&#x27;s own screen lock. Library backups are encrypted before upload (Section 3). All network requests the Application makes use HTTPS. No method of storage or transmission is completely secure; keep your device and the Application up to date.</p>
+<h2>15. International processing</h2>
+<p>TalkKeep does not operate a server that processes your recordings or transcripts. If you choose a Google Drive folder, that data is handled by Google under Google&#x27;s own privacy policy once it reaches your Drive. Ad-serving data collected by Google and AppLovin (Section 9) is processed under their own privacy policies, in whatever countries they operate their ad infrastructure.</p>
+<h2>16. Changes to this policy</h2>
+<p>This Privacy Policy may be updated as the Application or legal requirements change. The published policy will show a revised &quot;Last updated&quot; date. Material changes will be communicated as required by applicable law.</p>
+<h2>17. Contact</h2>
+<p>Khalid Mustafa Tech — Email: <strong>m<a href="mailto:asterabdullahkhalid@gmail.com">asterabdullahkhalid@gmail.com</a></strong></p>
+<p class="actions"><a class="btn" href="https://play.google.com/store/apps/details?id=com.khalidmustafatech.talkkeep">View on Google Play</a> <a class="btn ghost" href="../index.html">&larr; All apps</a></p></article>
+</main>
+<footer class="site-foot"><div class="wrap">
+  <a class="brand" href="../index.html"><span class="logo-mark">KM</span><span><b>Khalid Mustafa Tech</b></span></a>
+  <p>Useful Android apps &mdash; crafted with care.</p>
+  <p><a href="https://play.google.com/store/apps/developer?id=Khalid+Mustafa+Tech">Developer on Google Play</a> &middot; <a href="mailto:masterabdullahkhalid@gmail.com">masterabdullahkhalid@gmail.com</a></p>
+  <p>&copy; 2026 Khalid Mustafa Tech. All trademarks belong to their respective owners.</p>
+</div></footer>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+  var els=document.querySelectorAll('.reveal');
+  if(!('IntersectionObserver'in window)){els.forEach(function(e){e.classList.add('in')});return;}
+  var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:.1});
+  els.forEach(function(e,i){e.style.transitionDelay=(Math.min(i,8)*55)+'ms';io.observe(e);});
+});
+</script>
+</body></html>

@@ -1,164 +1,303 @@
 {
-  "talkkeep-call-recorder": {
-    "tagline": "Record every call — including WhatsApp & all social media calls",
-    "short": "Automatic, crystal-clear call recording you can trust.",
-    "pitch": "Never lose an important conversation again. All Call Recorder automatically captures your regular phone calls and internet calls — WhatsApp, Messenger and more — in clear quality, then keeps them neatly organized so you can play, save or share any call in seconds.",
-    "features": ["Records normal calls AND WhatsApp & social app calls", "Fully automatic — set it once and forget", "Crystal-clear audio in a tidy, searchable library", "Play, share or back up any recording instantly"]
-  },
-  "arrow-game": {
-    "tagline": "Brain-teasing arrow mazes you won't put down",
-    "short": "Tap arrows, solve the grid, clear every board.",
-    "pitch": "A calm yet addictive puzzle for sharp minds. Follow the arrows, think a few moves ahead, and clear board after board — simple to learn, satisfying to master.",
-    "features": ["Hundreds of handcrafted levels", "Relaxing, no-pressure gameplay", "Trains logic and focus"]
-  },
-  "arrow-maze-zig-arrow": {
-    "tagline": "Zig-zag maze puzzles that get deliciously tricky",
-    "short": "Tap the right arrows in order to clear every board.",
-    "pitch": "Test your pattern-spotting skills across ever-trickier zig-zag mazes. Each level is a fresh little challenge that keeps your brain hooked.",
-    "features": ["Clever zig-zag level design", "Quick, pick-up-and-play rounds", "Difficulty that grows with you"]
-  },
-  "sink-hole-teeter": {
-    "tagline": "Tilt, balance, and beat the sink hole",
-    "short": "Guide the ball through the maze — don't fall in.",
-    "pitch": "A thrilling tilt-maze test of nerve and balance. Steer the ball around traps and sink holes with real motion controls — one wrong lean and it's game over.",
-    "features": ["Smooth tilt motion controls", "Increasingly nerve-wracking mazes", "Simple to start, hard to master"]
-  },
-  "barcode-scanner": {
-    "tagline": "Scan any QR or barcode in a blink",
-    "short": "Fast, clean QR & barcode scanning.",
-    "pitch": "The only scanner you'll ever need. Point your camera and instantly read QR codes and barcodes — open links, save contacts, check products, and more, all with a clean, no-clutter design.",
-    "features": ["Instant QR & barcode detection", "Clean, ad-light camera UI", "History so you never lose a scan"]
-  },
-  "video-splitter-360": {
-    "tagline": "Split long videos into perfect status-ready clips",
-    "short": "Cut and split videos with precision.",
-    "pitch": "Share long videos anywhere. Video Splitter & Cutter 360 slices your clips into perfectly sized pieces for WhatsApp status and stories — precise, fast, and watermark-free.",
-    "features": ["Auto-split for 30s status clips", "Frame-accurate manual cutting", "Keeps original HD quality"]
-  },
-  "video-to-mp3": {
-    "tagline": "Turn any video into high-quality MP3 audio",
-    "short": "Extract crisp MP3 audio from videos.",
-    "pitch": "Love the sound, skip the video. Extract clean, high-bitrate MP3 audio from any video in seconds — perfect for songs, lectures, podcasts and voice notes.",
-    "features": ["High-quality MP3 extraction", "Trim before you convert", "Fast, offline processing"]
-  },
-  "eyecon-360": {
-    "tagline": "Message any WhatsApp number — without saving it",
-    "short": "Chat on WhatsApp without adding contacts.",
-    "pitch": "Skip the save-then-chat hassle. Type any number and open a WhatsApp chat instantly — ideal for quick business messages and one-time conversations.",
-    "features": ["Open WhatsApp chats without saving numbers", "Keeps your contacts clean", "One-tap quick messaging"]
-  },
-  "eyecon-status-saver-360": {
-    "tagline": "Save every WhatsApp & Business status in one tap",
-    "short": "Download and keep WhatsApp statuses.",
-    "pitch": "See a status you love? Keep it. Save photos and videos from WhatsApp and WhatsApp Business to your gallery instantly, then re-share whenever you like.",
-    "features": ["Save WhatsApp & Business statuses", "Photos and videos in original quality", "One-tap download and re-share"]
-  },
-  "flashlight-alert": {
-    "tagline": "A flashlight that flashes on calls & notifications",
-    "short": "Torch, strobe, SOS and smart flash alerts.",
-    "pitch": "More than a torch. Get a bright flashlight plus strobe, SOS and smart alerts that blink for incoming calls and messages — so you never miss a thing.",
-    "features": ["Bright torch + strobe + SOS", "Flash alerts for calls & notifications", "Shake-to-toggle convenience"]
-  },
-  "ledger-x-360": {
-    "tagline": "Track every rupee you give and take",
-    "short": "Simple ledger for daily money tracking.",
-    "pitch": "Stay on top of your money without spreadsheets. LedgerX 360 makes it effortless to record who owes you and whom you owe, with clear balances you can trust.",
-    "features": ["Easy credit / debit entries", "Running balances at a glance", "Your data stays on your device"]
-  },
-  "noteora-notes": {
-    "tagline": "Capture every idea the moment it strikes",
-    "short": "Clean, fast notes with labels & organization.",
-    "pitch": "A notebook that keeps up with your thoughts. Jot ideas in a tap, organize with labels, and find anything instantly — all in a clean, distraction-free design.",
-    "features": ["Lightning-fast note capture", "Labels and smart organization", "Clean, clutter-free design"]
-  },
-  "image-to-pdf": {
-    "tagline": "Your pocket document studio — scan, OCR, convert",
-    "short": "Images to PDF, scan, OCR, merge, compress & more.",
-    "pitch": "An all-in-one document toolkit. Turn photos into crisp PDFs, scan documents, pull text out with OCR, then merge, split and compress files — everything you need to handle paperwork on the go.",
-    "features": ["Photos to professional PDFs", "Document scanning + OCR text extraction", "Merge, split, compress & convert"]
-  },
-  "keyloom-keyboard": {
-    "tagline": "A private keyboard that types the way you think",
-    "short": "Multilingual keyboard with themes & smart typing.",
-    "pitch": "Type faster and safer. Keyloom is a private, multilingual keyboard with smart suggestions and beautiful themes — your words stay yours.",
-    "features": ["Multilingual smart typing", "Beautiful customizable themes", "Privacy-first — no spying on your keystrokes"]
-  },
-  "voice-reader-ai": {
-    "tagline": "Let AI read anything to you in a natural voice",
-    "short": "Turn text into lifelike speech.",
-    "pitch": "Listen instead of reading. Voice Reader AI converts articles, notes and documents into natural, human-like speech — perfect for commutes, chores or resting your eyes.",
-    "features": ["Natural, human-like AI voices", "Read articles, notes & documents", "Listen hands-free, anywhere"]
-  },
-  "screen-recorder-pro-x": {
-    "tagline": "Record your screen in HD — with internal audio & facecam",
-    "short": "HD screen recording with audio and facecam.",
-    "pitch": "Capture everything on your screen in crisp HD. Record gameplay, tutorials and calls with internal audio and facecam, then edit and share in a tap.",
-    "features": ["HD recording with internal audio", "Facecam overlay for reactions", "No time limit, easy sharing"]
-  },
-  "vidgrab": {
-    "tagline": "Download TikTok videos — no watermark, full HD",
-    "short": "Save TikTok videos without watermark, fast.",
-    "pitch": "Keep the TikToks you love. Paste a link and save any public video in crisp HD without the watermark — fast, simple and free.",
-    "features": ["No watermark, full HD", "One-tap paste & download", "Saves straight to your gallery"]
-  },
-  "feedgrab": {
-    "tagline": "Save Facebook videos & reels in high quality",
-    "short": "Download Facebook videos and reels.",
-    "pitch": "Never lose a Facebook video again. Grab public videos and reels in high quality with a single paste — quick and effortless.",
-    "features": ["HD Facebook video & reel downloads", "Simple paste-and-save", "Watch offline anytime"]
-  },
-  "reelgrab": {
-    "tagline": "Save Instagram reels, videos & photos instantly",
-    "short": "Download Instagram reels, videos and photos.",
-    "pitch": "Collect your favourite Instagram moments. Save public reels, videos and photos in top quality with one tap — ready to watch offline or re-share.",
-    "features": ["Reels, videos & photos", "Original high quality", "Fast one-tap saving"]
-  },
-  "xsaver": {
-    "tagline": "Download X (Twitter) videos & GIFs in HD",
-    "short": "Save X videos and GIFs in HD.",
-    "pitch": "Save the best of X. Download public videos and GIFs from X (Twitter) in sharp HD with a single paste — no fuss.",
-    "features": ["HD video & GIF downloads", "One-tap paste & save", "Keep clips offline forever"]
-  },
-  "redgrab": {
-    "tagline": "Download Reddit videos — with sound, auto-merged",
-    "short": "Reddit videos with audio, merged automatically.",
-    "pitch": "Finally, Reddit videos that actually have sound. RedGrab downloads Reddit clips and merges video with audio automatically, so you always get the full experience.",
-    "features": ["Video + audio merged automatically", "High-quality Reddit downloads", "Simple paste-and-go"]
-  },
-  "liksaver": {
-    "tagline": "Save Likee videos without the watermark",
-    "short": "Download Likee videos in HD, no watermark.",
-    "pitch": "Keep the Likee videos you love, clean. Download public Likee clips in high quality without watermarks — quick, simple, free.",
-    "features": ["No watermark, HD quality", "One-tap download", "Saves to your gallery"]
-  },
-  "all-video-downloader": {
-    "tagline": "One app to download from every platform you use",
-    "short": "TikTok, Instagram, Facebook, X, Reddit & more.",
-    "pitch": "Why install five apps? All Video Downloader saves public videos from TikTok, Instagram, Facebook, X, Reddit and more — all in one fast, watermark-free place.",
-    "features": ["Supports all major platforms", "No watermark, HD quality", "One app, every download"]
-  },
-  "status-saver": {
-    "tagline": "Save WhatsApp statuses before they disappear",
-    "short": "Download WhatsApp photo & video statuses.",
-    "pitch": "That status won't last 24 hours — but your copy will. Save WhatsApp photo and video statuses to your gallery in one tap, then share them whenever you want.",
-    "features": ["Save photo & video statuses", "Original quality, one tap", "Re-share anytime"]
-  },
-  "threads": {
-    "tagline": "Save Threads videos in high quality",
-    "short": "Download & save Threads videos.",
-    "pitch": "Keep the Threads clips worth re-watching. Paste a link and save public Threads videos in high quality — fast and simple.",
-    "features": ["High-quality Threads downloads", "Quick paste-and-save", "Watch offline anytime"]
-  },
-  "pinterest": {
-    "tagline": "Save Pinterest photos & videos in one tap",
-    "short": "Download Pinterest images and video pins.",
-    "pitch": "Build your inspiration offline. Save photos and video pins from Pinterest in full quality with a single paste — perfect for mood boards and ideas.",
-    "features": ["Photos and video pins", "Full original quality", "Fast one-tap saving"]
-  },
-  "snapchat": {
-    "tagline": "Save public Snapchat Spotlight videos instantly",
-    "short": "Download public Snapchat Spotlight clips.",
-    "pitch": "Keep the Spotlight videos that make you laugh. Save public Snapchat Spotlight clips in high quality with a quick paste — easy and free.",
-    "features": ["Public Spotlight video downloads", "High quality, one tap", "Watch and re-share offline"]
-  }
+ "talkkeep-call-recorder": {
+  "tagline": "Record every call — including WhatsApp & all social media calls",
+  "short": "Automatic, crystal-clear call recording you can trust.",
+  "pitch": "Never lose an important conversation again. All Call Recorder automatically captures your regular phone calls and internet calls — WhatsApp, Messenger and more — in clear quality, then keeps them neatly organized so you can play, save or share any call in seconds.",
+  "features": [
+   "Records normal calls AND WhatsApp & social app calls",
+   "Fully automatic — set it once and forget",
+   "Crystal-clear audio in a tidy, searchable library",
+   "Play, share or back up any recording instantly"
+  ]
+ },
+ "arrow-game": {
+  "tagline": "Brain-teasing arrow mazes you won't put down",
+  "short": "Tap arrows, solve the grid, clear every board.",
+  "pitch": "A calm yet addictive puzzle for sharp minds. Follow the arrows, think a few moves ahead, and clear board after board — simple to learn, satisfying to master.",
+  "features": [
+   "Hundreds of handcrafted levels",
+   "Relaxing, no-pressure gameplay",
+   "Trains logic and focus"
+  ]
+ },
+ "arrow-maze-zig-arrow": {
+  "tagline": "Zig-zag maze puzzles that get deliciously tricky",
+  "short": "Tap the right arrows in order to clear every board.",
+  "pitch": "Test your pattern-spotting skills across ever-trickier zig-zag mazes. Each level is a fresh little challenge that keeps your brain hooked.",
+  "features": [
+   "Clever zig-zag level design",
+   "Quick, pick-up-and-play rounds",
+   "Difficulty that grows with you"
+  ]
+ },
+ "sink-hole-teeter": {
+  "tagline": "Tilt, balance, and beat the sink hole",
+  "short": "Guide the ball through the maze — don't fall in.",
+  "pitch": "A thrilling tilt-maze test of nerve and balance. Steer the ball around traps and sink holes with real motion controls — one wrong lean and it's game over.",
+  "features": [
+   "Smooth tilt motion controls",
+   "Increasingly nerve-wracking mazes",
+   "Simple to start, hard to master"
+  ]
+ },
+ "barcode-scanner": {
+  "tagline": "Scan any QR or barcode in a blink",
+  "short": "Fast, clean QR & barcode scanning.",
+  "pitch": "The only scanner you'll ever need. Point your camera and instantly read QR codes and barcodes — open links, save contacts, check products, and more, all with a clean, no-clutter design.",
+  "features": [
+   "Instant QR & barcode detection",
+   "Clean, ad-light camera UI",
+   "History so you never lose a scan"
+  ]
+ },
+ "video-splitter-360": {
+  "tagline": "Split long videos into perfect status-ready clips",
+  "short": "Cut and split videos with precision.",
+  "pitch": "Share long videos anywhere. Video Splitter & Cutter 360 slices your clips into perfectly sized pieces for WhatsApp status and stories — precise, fast, and watermark-free.",
+  "features": [
+   "Auto-split for 30s status clips",
+   "Frame-accurate manual cutting",
+   "Keeps original HD quality"
+  ]
+ },
+ "video-to-mp3": {
+  "tagline": "Turn any video into high-quality MP3 audio",
+  "short": "Extract crisp MP3 audio from videos.",
+  "pitch": "Love the sound, skip the video. Extract clean, high-bitrate MP3 audio from any video in seconds — perfect for songs, lectures, podcasts and voice notes.",
+  "features": [
+   "High-quality MP3 extraction",
+   "Trim before you convert",
+   "Fast, offline processing"
+  ]
+ },
+ "eyecon-360": {
+  "tagline": "Message any WhatsApp number — without saving it",
+  "short": "Chat on WhatsApp without adding contacts.",
+  "pitch": "Skip the save-then-chat hassle. Type any number and open a WhatsApp chat instantly — ideal for quick business messages and one-time conversations.",
+  "features": [
+   "Open WhatsApp chats without saving numbers",
+   "Keeps your contacts clean",
+   "One-tap quick messaging"
+  ]
+ },
+ "eyecon-status-saver-360": {
+  "tagline": "Save every WhatsApp & Business status in one tap",
+  "short": "Download and keep WhatsApp statuses.",
+  "pitch": "See a status you love? Keep it. Save photos and videos from WhatsApp and WhatsApp Business to your gallery instantly, then re-share whenever you like.",
+  "features": [
+   "Save WhatsApp & Business statuses",
+   "Photos and videos in original quality",
+   "One-tap download and re-share"
+  ]
+ },
+ "flashlight-alert": {
+  "tagline": "A flashlight that flashes on calls & notifications",
+  "short": "Torch, strobe, SOS and smart flash alerts.",
+  "pitch": "More than a torch. Get a bright flashlight plus strobe, SOS and smart alerts that blink for incoming calls and messages — so you never miss a thing.",
+  "features": [
+   "Bright torch + strobe + SOS",
+   "Flash alerts for calls & notifications",
+   "Shake-to-toggle convenience"
+  ]
+ },
+ "ledger-x-360": {
+  "tagline": "Track every rupee you give and take",
+  "short": "Simple ledger for daily money tracking.",
+  "pitch": "Stay on top of your money without spreadsheets. LedgerX 360 makes it effortless to record who owes you and whom you owe, with clear balances you can trust.",
+  "features": [
+   "Easy credit / debit entries",
+   "Running balances at a glance",
+   "Your data stays on your device"
+  ]
+ },
+ "noteora-notes": {
+  "tagline": "Capture every idea the moment it strikes",
+  "short": "Clean, fast notes with labels & organization.",
+  "pitch": "A notebook that keeps up with your thoughts. Jot ideas in a tap, organize with labels, and find anything instantly — all in a clean, distraction-free design.",
+  "features": [
+   "Lightning-fast note capture",
+   "Labels and smart organization",
+   "Clean, clutter-free design"
+  ]
+ },
+ "image-to-pdf": {
+  "tagline": "Your pocket document studio — scan, OCR, convert",
+  "short": "Images to PDF, scan, OCR, merge, compress & more.",
+  "pitch": "An all-in-one document toolkit. Turn photos into crisp PDFs, scan documents, pull text out with OCR, then merge, split and compress files — everything you need to handle paperwork on the go.",
+  "features": [
+   "Photos to professional PDFs",
+   "Document scanning + OCR text extraction",
+   "Merge, split, compress & convert"
+  ]
+ },
+ "keyloom-keyboard": {
+  "tagline": "A private keyboard that types the way you think",
+  "short": "Multilingual keyboard with themes & smart typing.",
+  "pitch": "Type faster and safer. Keyloom is a private, multilingual keyboard with smart suggestions and beautiful themes — your words stay yours.",
+  "features": [
+   "Multilingual smart typing",
+   "Beautiful customizable themes",
+   "Privacy-first — no spying on your keystrokes"
+  ]
+ },
+ "voice-reader-ai": {
+  "tagline": "Let AI read anything to you in a natural voice",
+  "short": "Turn text into lifelike speech.",
+  "pitch": "Listen instead of reading. Voice Reader AI converts articles, notes and documents into natural, human-like speech — perfect for commutes, chores or resting your eyes.",
+  "features": [
+   "Natural, human-like AI voices",
+   "Read articles, notes & documents",
+   "Listen hands-free, anywhere"
+  ]
+ },
+ "screen-recorder-pro-x": {
+  "tagline": "Record your screen in HD — with internal audio & facecam",
+  "short": "HD screen recording with audio and facecam.",
+  "pitch": "Capture everything on your screen in crisp HD. Record gameplay, tutorials and calls with internal audio and facecam, then edit and share in a tap.",
+  "features": [
+   "HD recording with internal audio",
+   "Facecam overlay for reactions",
+   "No time limit, easy sharing"
+  ]
+ },
+ "vidgrab": {
+  "tagline": "Download TikTok videos — no watermark, full HD",
+  "short": "Save TikTok videos without watermark, fast.",
+  "pitch": "Keep the TikToks you love. Paste a link and save any public video in crisp HD without the watermark — fast, simple and free.",
+  "features": [
+   "No watermark, full HD",
+   "One-tap paste & download",
+   "Saves straight to your gallery"
+  ]
+ },
+ "feedgrab": {
+  "tagline": "Save Facebook videos & reels in high quality",
+  "short": "Download Facebook videos and reels.",
+  "pitch": "Never lose a Facebook video again. Grab public videos and reels in high quality with a single paste — quick and effortless.",
+  "features": [
+   "HD Facebook video & reel downloads",
+   "Simple paste-and-save",
+   "Watch offline anytime"
+  ]
+ },
+ "reelgrab": {
+  "tagline": "Save Instagram reels, videos & photos instantly",
+  "short": "Download Instagram reels, videos and photos.",
+  "pitch": "Collect your favourite Instagram moments. Save public reels, videos and photos in top quality with one tap — ready to watch offline or re-share.",
+  "features": [
+   "Reels, videos & photos",
+   "Original high quality",
+   "Fast one-tap saving"
+  ]
+ },
+ "xsaver": {
+  "tagline": "Download X (Twitter) videos & GIFs in HD",
+  "short": "Save X videos and GIFs in HD.",
+  "pitch": "Save the best of X. Download public videos and GIFs from X (Twitter) in sharp HD with a single paste — no fuss.",
+  "features": [
+   "HD video & GIF downloads",
+   "One-tap paste & save",
+   "Keep clips offline forever"
+  ]
+ },
+ "redgrab": {
+  "tagline": "Download Reddit videos — with sound, auto-merged",
+  "short": "Reddit videos with audio, merged automatically.",
+  "pitch": "Finally, Reddit videos that actually have sound. RedGrab downloads Reddit clips and merges video with audio automatically, so you always get the full experience.",
+  "features": [
+   "Video + audio merged automatically",
+   "High-quality Reddit downloads",
+   "Simple paste-and-go"
+  ]
+ },
+ "liksaver": {
+  "tagline": "Save Likee videos without the watermark",
+  "short": "Download Likee videos in HD, no watermark.",
+  "pitch": "Keep the Likee videos you love, clean. Download public Likee clips in high quality without watermarks — quick, simple, free.",
+  "features": [
+   "No watermark, HD quality",
+   "One-tap download",
+   "Saves to your gallery"
+  ]
+ },
+ "all-video-downloader": {
+  "tagline": "One app to download from every platform you use",
+  "short": "TikTok, Instagram, Facebook, X, Reddit & more.",
+  "pitch": "Why install five apps? All Video Downloader saves public videos from TikTok, Instagram, Facebook, X, Reddit and more — all in one fast, watermark-free place.",
+  "features": [
+   "Supports all major platforms",
+   "No watermark, HD quality",
+   "One app, every download"
+  ]
+ },
+ "status-saver": {
+  "tagline": "Save WhatsApp statuses before they disappear",
+  "short": "Download WhatsApp photo & video statuses.",
+  "pitch": "That status won't last 24 hours — but your copy will. Save WhatsApp photo and video statuses to your gallery in one tap, then share them whenever you want.",
+  "features": [
+   "Save photo & video statuses",
+   "Original quality, one tap",
+   "Re-share anytime"
+  ]
+ },
+ "threads": {
+  "tagline": "Save Threads videos in high quality",
+  "short": "Download & save Threads videos.",
+  "pitch": "Keep the Threads clips worth re-watching. Paste a link and save public Threads videos in high quality — fast and simple.",
+  "features": [
+   "High-quality Threads downloads",
+   "Quick paste-and-save",
+   "Watch offline anytime"
+  ]
+ },
+ "pinterest": {
+  "tagline": "Save Pinterest photos & videos in one tap",
+  "short": "Download Pinterest images and video pins.",
+  "pitch": "Build your inspiration offline. Save photos and video pins from Pinterest in full quality with a single paste — perfect for mood boards and ideas.",
+  "features": [
+   "Photos and video pins",
+   "Full original quality",
+   "Fast one-tap saving"
+  ]
+ },
+ "snapchat": {
+  "tagline": "Save public Snapchat Spotlight videos instantly",
+  "short": "Download public Snapchat Spotlight clips.",
+  "pitch": "Keep the Spotlight videos that make you laugh. Save public Snapchat Spotlight clips in high quality with a quick paste — easy and free.",
+  "features": [
+   "Public Spotlight video downloads",
+   "High quality, one tap",
+   "Watch and re-share offline"
+  ]
+ },
+ "keeplock": {
+  "tagline": "Lock your apps — fingerprint, PIN & privacy",
+  "short": "Protect any app with biometrics, catch intruders & hide notifications.",
+  "pitch": "A powerful, privacy-first app lock. Secure any app with your fingerprint, PIN, pattern or password, catch snoopers with intruder selfies, hide notifications of locked apps, auto-relax on trusted Wi-Fi, and stop uninstalls — all processed on your device with no ads and no tracking.",
+  "features": [
+   "Fingerprint, PIN, pattern & password lock",
+   "Intruder selfie + hide locked-app notifications",
+   "Trusted Wi-Fi, anti-uninstall — 100% on-device"
+  ]
+ },
+ "fruit-match-puzzle": {
+  "tagline": "Juicy match-3 fruit fun",
+  "short": "Swap, match and blast colorful fruits across hundreds of levels.",
+  "pitch": "A sweet and juicy match-3 puzzle. Swap fruits, trigger tasty combos and clear fun boards across hundreds of levels — easy to learn, hard to put down.",
+  "features": [
+   "Hundreds of juicy match-3 levels",
+   "Satisfying combos & boosters",
+   "Relaxing, colorful gameplay"
+  ]
+ },
+ "gem-blast-match-3": {
+  "tagline": "Blast gems & fruits in match-3",
+  "short": "A bright match-3 adventure — easy to play, hard to stop.",
+  "pitch": "Blast gems and juicy fruits in a vibrant match-3 adventure. Line up three or more, chain explosive combos and clear every colorful board — simple to pick up and endlessly fun.",
+  "features": [
+   "Colorful match-3 gem blasting",
+   "Explosive combos & power-ups",
+   "Hundreds of levels of fun"
+  ]
+ }
 }

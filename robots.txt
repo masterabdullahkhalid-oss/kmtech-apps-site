@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://masterabdullahkhalid-oss.github.io/kmtech-apps-site/sitemap.xml

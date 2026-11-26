@@ -10,6 +10,7 @@
 <link rel="canonical" href="https://masterabdullahkhalid-oss.github.io/kmtech-apps-site/">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="assets/icons/talkkeep-call-recorder.png">
+<link rel="manifest" href="manifest.webmanifest">
 <!-- Open Graph (link previews on WhatsApp, Facebook, LinkedIn) -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Khalid Mustafa Tech">
@@ -40,14 +41,46 @@
 <main class="wrap">
 <section class="hero">
   <div class="hero-img-wrap reveal"><img class="hero-img" src="assets/hero.jpg" alt="Small Ideas, Big Impact — Khalid Mustafa Tech" width="520" height="520" fetchpriority="high"></div>
+  <style>
+  .hero .grad{background:linear-gradient(90deg,#22d3ee,#7c3aed 45%,#f472b6,#22d3ee);background-size:300% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:gradMove 7s linear infinite}
+  @keyframes gradMove{to{background-position:300% 0}}
+  .hero h1{animation:fadeUp .7s ease both}
+  .hero>p{animation:fadeUp .7s .08s ease both}
+  .hero-chips{display:flex;flex-wrap:wrap;gap:9px;justify-content:center;margin:2px 0 22px;animation:fadeUp .7s .16s ease both}
+  .hero-chips .chip{display:inline-flex;align-items:center;gap:7px;padding:8px 14px;border:1px solid var(--border);border-radius:999px;background:var(--surface);color:var(--muted);font-size:13px;font-weight:600;backdrop-filter:blur(8px)}
+  .hero-chips .chip svg{width:15px;height:15px;color:var(--cyan)}
+  .hero .hero-cta{animation:fadeUp .7s .24s ease both}
+  .hero .btn:not(.ghost){position:relative;overflow:hidden}
+  .hero .btn:not(.ghost)::after{content:"";position:absolute;top:0;left:-130%;width:55%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.35),transparent);transform:skewX(-18deg);animation:shine 3.6s ease-in-out infinite}
+  @keyframes shine{0%,55%{left:-130%}100%{left:170%}}
+  .hero .stats{animation:fadeUp .7s .32s ease both;gap:14px}
+  .hero .stat{padding:15px 20px;border:1px solid var(--border);border-radius:16px;background:var(--surface);backdrop-filter:blur(8px);transition:transform .25s,border-color .25s,box-shadow .25s}
+  .hero .stat:hover{transform:translateY(-4px);border-color:var(--border-strong);box-shadow:0 16px 40px rgba(0,0,0,.45)}
+  .hero .stat b{background:linear-gradient(135deg,#fff,#9fc0ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+  @media(prefers-reduced-motion:reduce){.hero *{animation:none!important}}
+  </style>
   <h1>Small Ideas, <span class="grad">Big Impact</span></h1>
   <p>Useful, privacy-respecting Android apps by <strong>Khalid Mustafa Tech</strong>. Find the app you need, install it in a tap, and see what makes each one special.</p>
+  <div class="hero-chips">
+    <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>Privacy-first</span>
+    <span class="chip"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13 2 4 14h6l-1 8 9-12h-6z"/></svg>Lightweight &amp; fast</span>
+    <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>100% Free</span>
+    <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>No sign-up</span>
+  </div>
   <div class="hero-cta"><a class="btn" href="https://play.google.com/store/apps/developer?id=Khalid+Mustafa+Tech">All apps on Google Play</a><a class="btn ghost" href="#live">Explore below</a></div>
   <div class="stats">
-    <div class="stat"><b>29</b><span>Apps</span></div>
-    <div class="stat"><b>13</b><span>On Google Play</span></div>
+    <div class="stat"><b data-count="29">0</b><span>Apps</span></div>
+    <div class="stat"><b data-count="13">0</b><span>On Google Play</span></div>
     <div class="stat"><b>&#8734;</b><span>More coming</span></div>
-  </div></section><section class="sec"><div class="sec-head"><span class="dot"></span><h2>Featured</h2></div><div class="featured reveal"><div class="featured-inner">
+  </div>
+  <script>
+  (function(){var s=document.querySelectorAll('.hero .stat b[data-count]');if(!s.length)return;
+  function run(el){var t=+el.dataset.count,d=1100,st=performance.now();(function f(n){var p=Math.min(1,(n-st)/d);el.textContent=Math.round(t*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(f);})(st);}
+  if(!('IntersectionObserver'in window)){s.forEach(function(e){e.textContent=e.dataset.count});return;}
+  var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){run(e.target);io.unobserve(e.target);}})},{threshold:.5});
+  s.forEach(function(e){io.observe(e);});})();
+  </script></section><section class="sec"><div class="sec-head"><span class="dot"></span><h2>Featured</h2></div><div class="featured reveal"><div class="featured-inner">
       <img class="icon-lg" src="assets/icons/image-to-pdf.png" alt="AllDocs – PDF &amp; File Toolkit" width="100" height="100">
       <div class="f-body">
         <span class="badge prem">Premium</span>

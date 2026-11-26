@@ -1,0 +1,14 @@
+{
+  "name": "Khalid Mustafa Tech — Android Apps",
+  "short_name": "KM Tech",
+  "description": "Useful, privacy-respecting Android apps by Khalid Mustafa Tech.",
+  "start_url": "/kmtech-apps-site/",
+  "scope": "/kmtech-apps-site/",
+  "display": "standalone",
+  "background_color": "#060910",
+  "theme_color": "#060910",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "assets/icons/talkkeep-call-recorder.png", "sizes": "192x192", "type": "image/png", "purpose": "any" }
+  ]
+}

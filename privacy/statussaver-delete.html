@@ -68,8 +68,9 @@
 document.addEventListener('DOMContentLoaded',function(){
   var els=document.querySelectorAll('.reveal');
   if(!('IntersectionObserver'in window)){els.forEach(function(e){e.classList.add('in')});return;}
-  var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:.1});
+  var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:0});
   els.forEach(function(e,i){e.style.transitionDelay=(Math.min(i,8)*55)+'ms';io.observe(e);});
 });
 </script>
+<!--reveal-failsafe--><script>setTimeout(function(){var e=document.querySelectorAll(".reveal");for(var i=0;i<e.length;i++)e[i].classList.add("in")},700);</script>
 </body></html>
